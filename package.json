@@ -7,5 +7,11 @@
   },
   "devDependencies": {
     "@architect/sandbox": "^5.0"
+  },
+  "arc": {
+    "app": "myapp",
+    "http": [
+      [ "get", "/api" ]
+    ]
   }
 }
